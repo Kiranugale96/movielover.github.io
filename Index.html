@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+   <title>Movie lover</title>
+
+<style>
+
+     *{
+
+     background-color: black;
+
+    
+
+    margin: 0px;
+
+    padding:0px;
+
+    }
+
+    nav{
+
+     display:flex;
+
+    position:fixed;
+
+     height: 50px;
+
+     width: 100%;
+
+     background-color: black;
+
+     aling-items:center;
+
+     
+
+     }
+
+     nav .navbar{
+
+       color:red;
+
+       font-size:34px;
+
+      width:100px;
+
+      background-color: black;
+
+       font-weight: 900;
+
+       height:20px;
+
+       padding: 3px;
+
+       margin:0px 8px;
+
+     }
+
+     .btn{
+
+       color:black;
+
+      
+
+       font-weight:900;
+
+       margin:7px 10px;
+
+       width:90px;
+
+       height:30px;
+
+       padding:5px;
+
+       
+
+       
+
+     }
+
+  .btn1{
+
+       
+
+       color:black;
+
+       background-color:red;
+
+       font-weight: 900;
+
+       margin:7px 9px;
+
+       width:90px;
+
+       height:30px;
+
+       padding:0px;
+
+       
+
+       
+
+     }
+
+  #h1{
+
+    background:none;
+
+    margin:50px 40px;
+
+    width:280px;
+
+    font-weight:600;
+
+    height: 1px;
+
+    padding:12px;
+
+    color:gold;
+
+  }
+
+  
+
+  .btn,hover{
+
+     background:red;
+
+    color:white;
+
+    
+
+  }
+
+    .btn1,hover{
+
+     background:red;
+
+    color:white;
+
+    
+
+  }
+
+  #p1{
+
+    background:none;
+
+    color: skyblue;
+
+    width: 88%;
+
+    margin:1px;
+
+    padding: 18px;
+
+    font-size: 18px;
+
+    
+
+  }
+
+  .text{
+
+    background: light-white;
+
+    color:red;
+
+    margin:0 49px;
+
+    height:38px;
+
+    width:70%;
+
+    padding:px;
+
+    border-radius:3px;
+
+  }
+
+  .get{
+
+    background:red;
+
+    color:white;
+
+    width:108px;
+
+    height:40px;
+
+    margin:18px 120px;
+
+    }
+
+    .searchbar{
+
+      display: flex;
+
+    }
+
+    .btn2{
+
+      width:77px;
+
+      margin:0px 126px;
+
+      font-size: 15px;
+
+      font-weight:300;
+
+      color:none;
+
+      height:30px;
+
+      border-radius: 2px;
+
+      background-color: white;
+
+    }
+
+  .search{
+
+     
+
+     font-size:16px;
+
+     font-weight:300;
+
+     color: black;
+
+     background-color: white;
+
+     width:70%;
+
+     height: 30px;
+
+     margin:12px 35px;
+
+     border-radius: px;
+
+   }
+
+   
+
+   #s1{
+
+      background-color:silver;
+
+      height: 28px;
+
+      width:100%;
+
+      border-radius:5px;
+
+    
+
+    
+
+   }
+
+   #p2{
+
+     color:white;
+
+     margin:10px 9px;
+
+     width:17px;
+
+     
+
+     height: 1px;
+
+   }
+
+   #p3{
+
+      color: black;
+
+      font-size: 18px;
+
+      font-weight: 800;
+
+      width:97%;
+
+      height: 16px;
+
+      padding: 5px;
+
+      background-color:cyan;
+
+   }
+
+   .menu{
+
+     display:block;
+
+     margin:0px;
+
+     font-size:16px;
+
+     padding:2px;
+
+  
+
+     color: orange;
+
+     list-style: square;
+
+     margin: 9px 5px;
+
+   }
+
+   .menu li{
+
+    
+
+     height: 30px;
+
+     padding: 5px;
+
+   }
+
+   .menu li a{
+
+     color:white;
+
+     padding:0px;
+
+     background-color:;
+
+    text-decoration:none;
+
+   
+
+   }
+
+   .menu li a:hover{
+
+     
+
+     background-color:orange;
+
+     color:black;
+
+   }
+
+  @media screen and (min-width:400px){
+
+   *{
+
+      width:100%;
+
+    margin: 0px;
+
+     padding:0px;
+
+   }
+
+    nav{
+
+     display:flex;
+
+     height: 80px;
+
+     position:fixed;
+
+     aling-items:center;
+
+     width: 100%;
+
+     justify-content:none;
+
+     }
+
+     nav .navbar{
+
+       color:red;
+
+       
+
+      width:55%;
+
+      font-size:75px;
+
+       font-weight: 900;
+
+       height:20px;
+
+       padding: px;
+
+       margin:0 8px;
+
+     }
+
+     .btn{
+
+       
+
+       color:white;
+
+       background-color:red;
+
+       font-size:23px;
+
+       margin:20px;
+
+       width:120px;
+
+       height:50px;
+
+       padding:10px;
+
+       
+
+      
+
+     }
+
+  .btn1{
+
+       
+
+       color:white;
+
+       background-color:red;
+
+       font-size:23px;
+
+       margin:20px;
+
+       width:120px;
+
+       height:50px;
+
+       padding:10px;
+
+       
+
+       
+
+     }
+
+  
+
+  #h1{
+
+    background:none;
+
+    margin:0 116px;
+
+    font-size: 70px;
+
+    width:650px;
+
+    height:80px;
+
+    padding:105px;
+
+    color:gold;
+
+  }
+
+  .btn,hover{
+
+     background:red;
+
+    color:white;
+
+    
+
+  }
+
+  #p1{
+
+    background:none;
+
+    color:white;
+
+    margin:43px;
+
+    font-size:60px;
+
+    width:100%;
+
+    
+
+  }
+
+  .text{
+
+    background:white;
+
+    color:black;
+
+    margin:0 270px;
+
+    font-size:35px;
+
+    height:68px;
+
+    width:50%;
+
+    padding:px;
+
+    border-radius:8px;
+
+  }
+
+  .get{
+
+    background:red;
+
+    color:white;
+
+    font-size:25px;
+
+    width:13%;
+
+    height:60px;
+
+    margin:18px 440px;
+
+    border-radius:1px ;
+
+  
+
+  
+
+        
+
+    
+
+  }
+
+      .search{
+
+     color: red;
+
+     font-size:35px;
+
+     font-weight:500;
+
+     width:80%;
+
+     height: 80px;
+
+    margin: 8px 150px;
+
+   background-color: white;
+
+     padding: 5px 37px;
+
+     border-radius: 18px;
+
+   }
+
+   
+
+   #s1{
+
+    font-size:35px;
+
+    
+
+      background-color:silver;
+
+      height: 58px;
+
+      margin: 0 px;
+
+      width:100%;
+
+      border-radius:12px;
+
+    
+
+    
+
+   }
+
+       .btn2{
+
+      width:140px;
+
+      margin:19px 180px;
+
+      font-size: 22px;
+
+      font-weight:600;
+
+      color:red;
+
+      height:70px;
+
+      border-radius: 7px;
+
+      background-color: white;
+
+       }
+
+   #p2{
+
+     font-size: 50px;
+
+     margin: 0px;
+
+   }
+
+    #p3{
+
+      font-size: 29px;
+
+      font-weight: 555;
+
+      color:black;
+
+      padding: 19px;
+
+      height: 28px;
+
+      width:100%;
+
+    }
+
+   .menu{
+
+     display:block;
+
+     margin:0px;
+
+     font-size: 60px;
+
+     padding: 0px;
+
+     color: orange;
+
+    
+
+     list-style: square;
+
+   }
+
+    .menu li{
+
+      height: 67px;
+
+    }
+
+   .menu li a{
+
+     font-size: 25px;
+
+      
+
+   
+
+     color:white;
+
+     padding:0px;
+
+   }
+
+   .menu li a:hover{
+
+     
+
+     background-color:orange;
+
+     color:black;
+
+   }
+
+  }
+
+  
+
+   
+
+</style>
+
+</head>
+
+<body>
+
+    <nav>
+
+      
+
+    <div class="navbar">ML</div>
+
+     
+
+        <button class="btn"onclick="window.location.href = 'https://t.me/movieloversinn';">join</button>
+
+        <button class="btn1"onclick="window.location.href = 'Buttons.html">sing in</button>
+
+        
+
+    </nav>
+
+    <hr>
+
+    
+
+  <h2 id="h1">Unlimited Movies,Tv show,web series</h2>
+
+  <p id="p1">Watch anywhere and anytime.
+
+Ready to watch? Enter your email to create your account in movielover and download Free movies.</p>
+
+  <div class="email">
+
+    <input class="text"type="text" name="Email" placeholder="Email address" /> 
+
+    <button class="get">Get start></button>
+
+   
+
+  </div>
+
+  <hr>
+
+ 
+
+  <hr>
+
+ <div class="sertitle">
+
+    <h3 id="s1">Search Movies</h3>
+
+ </div>
+
+  
+
+ <div class="searchbar">
+
+   <p id="p2">search movie:</p>
+
+   <input class="search"type="text"name="Movies" placeholder="Movie name"/>
+
+ </div>
+
+    <button class="btn2">search</button>
+
+<br>
+
+<br>
+
+<p id="p3">Download menu</p>
+
+  
+
+   
+
+ 
+
+   <div class="menu">
+
+ <li><a href=" https://ww2.filmywap.actor/category/bollywood-movies">Bollywood movies</a></li>
+
+ <hr>
+
+ <li><a href="https://ww2.filmywap.actor/category/hollywood-hindi-dubbed-movies.html">Hollywood Hindi dubbed movies</a></li>
+
+ <hr>
+
+  <li><a href="https://ww2.filmywap.actor/category/hollywood-english-movies.html">Hollywood English movies</a></li>
+
+   <hr>
+
+   
+
+  <li><a href="https://ww2.filmywap.actor/category/marathi-movies.html">Marathi movies</a></li>
+
+  <hr>
+
+   <li><a href="https://ww2.filmywap.actor/category/south-indian-hindi-dubbed-movies.html">south Hindi dubbed movies</a></li>
+
+   <hr>
+
+   
+
+ <li><a href="https://ww2.filmywap.actor/category/bhojpuri-movies.html">Bhojapuri movies</a></li>
+
+  <hr>
+
+  <li><a href=" https://ww2.filmywap.actor/category/punjabi-movies.html">punjabi-movies</a></li>
+
+   <hr>
+
+   <li><a href="#">Web series</a></li>
+
+   <hr>
+
+    <li><a href="#">Indian tv shows</a></li>
+
+   <hr>
+
+    <li><a href="#">Punjabi movies</a></li>
+
+   <hr>
+
+    <li><a href="#">kapil sharma shows</a></li>
+
+   <hr>
+
+    <li><a href="#">Gujrati movies</a></li>
+
+   <hr>
+
+   
+
+   </div>
+
+    
+
+</body>
+
+</html>
+
